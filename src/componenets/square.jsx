@@ -5,6 +5,6 @@ export const SquareComponent=(props)=>{
     const classes=props.className?`${props.className} square`:'square'
     console.log(classes)
     return <>
-    <span className={classes}>0</span>
+    <span onClick={props.onclick} className={classes}>{props.state}</span>
     </>
 }
