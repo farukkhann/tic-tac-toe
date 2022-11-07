@@ -9,22 +9,23 @@ function App() {
     <div className="main">
       <h1>Tic Tac Toe</h1>
       <div className='row jc-center'>
-        <SquareComponent/>
-        <SquareComponent/>
-        <SquareComponent/>
+        <SquareComponent className="b-bottom-right"/>
+        <SquareComponent className="b-bottom-right"/>
+        <SquareComponent className="b-bottom"/>
 
       </div>
       <div className='row jc-center'>
-        <SquareComponent/>
-        <SquareComponent/>
-        <SquareComponent/>
+      <SquareComponent className="b-bottom-right"/>
+        <SquareComponent className="b-bottom-right"/>
+        <SquareComponent className="b-bottom"/>
 
       </div>
       <div className='row jc-center'>
-        <SquareComponent/>
-        <SquareComponent/>
+        <SquareComponent className="b-right"/>
+        <SquareComponent className="b-right"/>
         <SquareComponent/>
       </div>
+      <button className='clear-btn'>Clear Game</button>
     </div>
   )
 }

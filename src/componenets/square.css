@@ -7,3 +7,16 @@
     font-weight: bolder;
     padding: 30px;
 }
+
+.b-bottom-right {
+    border-right: 15px solid #1CDBF5;
+    border-bottom: 15px solid #1CDBF5;
+}
+
+.b-bottom {
+    border-bottom: 15px solid #1CDBF5;
+}
+
+.b-right {
+    border-right: 15px solid #1CDBF5;
+}
